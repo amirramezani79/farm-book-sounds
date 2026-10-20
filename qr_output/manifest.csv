@@ -1,0 +1,10 @@
+﻿شناسه حیوان (ID),نام حیوان,ایموجی,لینک وب‌پلیر (QR),لینک مستقیم فایل صوتی,فایل برداری (SVG),فایل چاپی (PNG 300DPI)
+hen,مرغ,🐔,https://milad.github.io/farm-book-sounds/?s=hen,https://milad.github.io/farm-book-sounds/audio/hen.mp3,svg/hen.svg,png_300dpi/hen.png
+cow,گاو,🐄,https://milad.github.io/farm-book-sounds/?s=cow,https://milad.github.io/farm-book-sounds/audio/cow.mp3,svg/cow.svg,png_300dpi/cow.png
+sheep,گوسفند,🐑,https://milad.github.io/farm-book-sounds/?s=sheep,https://milad.github.io/farm-book-sounds/audio/sheep.mp3,svg/sheep.svg,png_300dpi/sheep.png
+goose,غاز,🪿,https://milad.github.io/farm-book-sounds/?s=goose,https://milad.github.io/farm-book-sounds/audio/goose.mp3,svg/goose.svg,png_300dpi/goose.png
+duck,اردک,🦆,https://milad.github.io/farm-book-sounds/?s=duck,https://milad.github.io/farm-book-sounds/audio/duck.mp3,svg/duck.svg,png_300dpi/duck.png
+donkey,الاغ,🫏,https://milad.github.io/farm-book-sounds/?s=donkey,https://milad.github.io/farm-book-sounds/audio/donkey.mp3,svg/donkey.svg,png_300dpi/donkey.png
+dog,سگ گله,🐕,https://milad.github.io/farm-book-sounds/?s=dog,https://milad.github.io/farm-book-sounds/audio/dog.mp3,svg/dog.svg,png_300dpi/dog.png
+horse,اسب,🐎,https://milad.github.io/farm-book-sounds/?s=horse,https://milad.github.io/farm-book-sounds/audio/horse.mp3,svg/horse.svg,png_300dpi/horse.png
+goat,بز,🐐,https://milad.github.io/farm-book-sounds/?s=goat,https://milad.github.io/farm-book-sounds/audio/goat.mp3,svg/goat.svg,png_300dpi/goat.png

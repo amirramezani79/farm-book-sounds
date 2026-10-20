@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#4CAF50">
+  <meta name="description" content="پخش‌کننده صوتی کتاب چاپی مزرعه حیوانات برای کودکان">
+  <title>کتاب صوتی مزرعه حیوانات 🚜</title>
+  
+  <!-- فونت وزیرمتن -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-decorations" aria-hidden="true">
+    <span class="cloud cloud-1">☁️</span>
+    <span class="cloud cloud-2">☁️</span>
+    <span class="sun">☀️</span>
+    <span class="grass">🌾🌻🌾🌷🌾</span>
+  </div>
+
+  <div class="container">
+    <!-- هدر سایت -->
+    <header class="app-header">
+      <a href="index.html" class="header-title-link">
+        <h1 class="app-title">مزرعه حیوانات 🚜</h1>
+      </a>
+      <p class="app-subtitle">صدای حیوانات زیبای مزرعه رو بشنویم!</p>
+    </header>
+
+    <!-- بخش پلیر ویژه حیوان انتخاب شده (حالت اختصاصی QR Code) -->
+    <section id="player-section" class="player-card" aria-live="polite">
+      <div class="animal-avatar-container">
+        <div id="animal-emoji" class="animal-emoji" role="img" aria-label="حیوان">🐾</div>
+        <div class="sound-waves" id="sound-waves" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <h2 id="animal-name" class="animal-name">در حال آماده‌سازی...</h2>
+      <p id="sound-subtitle" class="sound-subtitle">برای شنیدن صدا، دکمه بزرگ زیر را لمس کنید</p>
+
+      <div class="player-controls">
+        <button id="play-btn" class="big-play-btn" aria-label="پخش صدا">
+          <span class="btn-icon">🔊</span>
+          <span class="btn-text">پخش صدا</span>
+        </button>
+
+        <button id="replay-btn" class="secondary-btn" aria-label="پخش مجدد" style="display: none;">
+          <span>🔄 پخش دوباره</span>
+        </button>
+      </div>
+
+      <!-- عنصر صوتی HTML5 -->
+      <audio id="audio-element" preload="auto"></audio>
+
+      <!-- نوار وضعیت پخش -->
+      <div id="player-status" class="player-status" role="status">آماده پخش</div>
+    </section>
+
+    <!-- بخش فهرست همه حیوانات مزرعه -->
+    <section class="animals-catalog">
+      <div class="catalog-header">
+        <h2>همه حیوانات مزرعه 🐮🐔</h2>
+        <span class="badge">۹ حیوان</span>
+      </div>
+
+      <div id="animals-grid" class="animals-grid" role="list" aria-label="فهرست حیوانات مزرعه">
+        <!-- کارت‌های حیوانات به صورت پویا توسط جاوااسکریپت اضافه می‌شوند -->
+      </div>
+    </section>
+
+    <!-- پانویس -->
+    <footer class="app-footer">
+      <p>صدای کتاب چاپی کودک • بدون تبلیغات و سبک ❤️</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

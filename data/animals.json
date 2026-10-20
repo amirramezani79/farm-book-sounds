@@ -1,0 +1,65 @@
+[
+  {
+    "id": "hen",
+    "name": "مرغ",
+    "emoji": "🐔",
+    "audio": "audio/hen.mp3",
+    "sound_title": "صدای مرغ"
+  },
+  {
+    "id": "cow",
+    "name": "گاو",
+    "emoji": "🐄",
+    "audio": "audio/cow.mp3",
+    "sound_title": "صدای گاو"
+  },
+  {
+    "id": "sheep",
+    "name": "گوسفند",
+    "emoji": "🐑",
+    "audio": "audio/sheep.mp3",
+    "sound_title": "صدای گوسفند"
+  },
+  {
+    "id": "goose",
+    "name": "غاز",
+    "emoji": "🪿",
+    "audio": "audio/goose.mp3",
+    "sound_title": "صدای غاز"
+  },
+  {
+    "id": "duck",
+    "name": "اردک",
+    "emoji": "🦆",
+    "audio": "audio/duck.mp3",
+    "sound_title": "صدای اردک"
+  },
+  {
+    "id": "donkey",
+    "name": "الاغ",
+    "emoji": "🫏",
+    "audio": "audio/donkey.mp3",
+    "sound_title": "صدای الاغ"
+  },
+  {
+    "id": "dog",
+    "name": "سگ گله",
+    "emoji": "🐕",
+    "audio": "audio/dog.mp3",
+    "sound_title": "صدای سگ گله"
+  },
+  {
+    "id": "horse",
+    "name": "اسب",
+    "emoji": "🐎",
+    "audio": "audio/horse.mp3",
+    "sound_title": "صدای اسب"
+  },
+  {
+    "id": "goat",
+    "name": "بز",
+    "emoji": "🐐",
+    "audio": "audio/goat.mp3",
+    "sound_title": "صدای بز"
+  }
+]
